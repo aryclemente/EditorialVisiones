@@ -22,11 +22,11 @@ return array(
 <div class="wp-block-column skt-fse-footer-info-right" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:social-links {"customIconColor":"#151f29","iconColorValue":"#151f29","customIconBackgroundColor":"#eff5fa","iconBackgroundColorValue":"#eff5fa","style":{"spacing":{"blockGap":{"left":"15px"},"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}},"layout":{"type":"flex","justifyContent":"right","orientation":"horizontal"}} -->
 <ul class="wp-block-social-links has-icon-color has-icon-background-color" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
-<!-- wp:social-link {"url":"#","service":"twitter"} /-->
+<!-- wp:social-link {"url":"https://www.facebook.com/EditorialVisiones/","service":"facebook"} /-->
 
-<!-- wp:social-link {"url":"#","service":"instagram"} /-->
+<!-- wp:social-link {"url":"https://www.instagram.com/editorialvisiones/","service":"instagram"} /-->
 
-<!-- wp:social-link {"url":"#","service":"youtube"} /-->
+<!-- wp:social-link {"url":"mailito: info@editorialvisiones.com","service":"mail"} /-->
 
 <!-- wp:social-link {"url":"#","service":"linkedin"} /--></ul>
 <!-- /wp:social-links --></div>
@@ -37,11 +37,12 @@ return array(
 <div class="wp-block-columns" style="border-bottom-color:#dce2e8;border-bottom-width:1px;padding-top:60px;padding-right:0px;padding-bottom:60px;padding-left:0px"><!-- wp:column {"className":"skt-fse-footer-box"} -->
 <div class="wp-block-column skt-fse-footer-box"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontSize":"26px","fontStyle":"normal","fontWeight":"700"},"color":{"text":"#0a1d2d"},"spacing":{"padding":{"bottom":"20px"}}},"fontFamily":"poppins"} -->
-<h3 class="has-text-align-left has-text-color has-poppins-font-family" style="color:#0a1d2d;padding-bottom:20px;font-size:26px;font-style:normal;font-weight:700">About Us</h3>
+<h3 class="has-text-align-left has-text-color has-poppins-font-family" style="color:#0a1d2d;padding-bottom:20px;font-size:26px;font-style:normal;font-weight:700">Sobre nosotros</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#111111"},"typography":{"fontSize":"15px","fontStyle":"normal","fontWeight":"400","lineHeight":2},"spacing":{"padding":{"top":"0px"}}},"fontFamily":"poppins"} -->
-<p class="has-text-color has-poppins-font-family" style="color:#111111;padding-top:0px;font-size:15px;font-style:normal;font-weight:400;line-height:2">Suspendisse interdum, nisi nec effiitur auctor, odio lcongueing ligula, se sodales tortor turpsat elit. Aliquam iacipsum ut odioe variusid interdum lac dictuem. Mauris a maximusey dolbulum Morbi non vestibulu.</p>
+<p class="has-text-color has-poppins-font-family" style="color:#111111;padding-top:0px;font-size:15px;font-style:normal;font-weight:400;line-height:2"> Editorial Visiones en 2022 tiene como objetivo fomentar el desarrollo de la investigación científica en Latinoamérica. Se trata de un espacio para autores de la región que deseen publicar sus investigaciones y perspectivas a través de textos académicos, y que también sirve como punto de referencia para los lectores interesados en este campo.
+</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -49,33 +50,36 @@ return array(
 <!-- wp:column {"className":"skt-fse-footer-box"} -->
 <div class="wp-block-column skt-fse-footer-box"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontSize":"26px","fontStyle":"normal","fontWeight":"700"},"color":{"text":"#0a1d2d"},"spacing":{"padding":{"bottom":"20px"}}},"fontFamily":"poppins"} -->
-<h3 class="has-text-align-left has-text-color has-poppins-font-family" style="color:#0a1d2d;padding-bottom:20px;font-size:26px;font-style:normal;font-weight:700">Services</h3>
+<h3 class="has-text-align-left has-text-color has-poppins-font-family" style="color:#0a1d2d;padding-bottom:20px;font-size:26px;font-style:normal;font-weight:700">Servicios </h3>
 <!-- /wp:heading -->
 
 <!-- wp:list {"style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"15px"},"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"color":{"text":"#111111"},"typography":{"fontSize":"15px","fontStyle":"normal","fontWeight":"400","lineHeight":"2.4"}},"fontFamily":"poppins"} -->
 <ul class="has-text-color has-poppins-font-family" style="color:#111111;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:15px;font-size:15px;font-style:normal;font-weight:400;line-height:2.4"><!-- wp:list-item -->
-<li>Creative Solutions</li>
+<li>Eventos Académicos 
+</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Marketing Strategy</li>
+<li>Asesoría para el desarrollo Eventos Académicos
+</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Web Development</li>
+<li>Formación académica en investigación 
+</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Keyword Research</li>
+<li>Publicación Periódicas a través de la Revista Ideas (Revista en construcción) 
+</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Banding Design</li>
+<li>Asesoría y Tutoría en trabajos y artículos de Investigación 
+</li>
 <!-- /wp:list-item -->
 
-<!-- wp:list-item -->
-<li>Business Growth</li>
-<!-- /wp:list-item --></ul>
+
 <!-- /wp:list --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -83,7 +87,7 @@ return array(
 <!-- wp:column {"className":"skt-fse-footer-box"} -->
 <div class="wp-block-column skt-fse-footer-box"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontSize":"26px","fontStyle":"normal","fontWeight":"700"},"color":{"text":"#0a1d2d"},"spacing":{"padding":{"bottom":"20px"}}},"fontFamily":"poppins"} -->
-<h3 class="has-text-align-left has-text-color has-poppins-font-family" style="color:#0a1d2d;padding-bottom:20px;font-size:26px;font-style:normal;font-weight:700">Quick Link</h3>
+<h3 class="has-text-align-left has-text-color has-poppins-font-family" style="color:#0a1d2d;padding-bottom:20px;font-size:26px;font-style:normal;font-weight:700">Enlaces rápidos</h3>
 <!-- /wp:heading -->
 
 <!-- wp:list {"style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"15px"},"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"color":{"text":"#111111"},"typography":{"fontSize":"15px","fontStyle":"normal","fontWeight":"400","lineHeight":"2.4"}},"fontFamily":"poppins"} -->
@@ -113,7 +117,7 @@ return array(
 <!-- wp:column {"className":"skt-fse-footer-box"} -->
 <div class="wp-block-column skt-fse-footer-box"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"left","level":3,"style":{"typography":{"fontSize":"26px","fontStyle":"normal","fontWeight":"700"},"color":{"text":"#0a1d2d"},"spacing":{"padding":{"bottom":"20px"}}},"fontFamily":"poppins"} -->
-<h3 class="has-text-align-left has-text-color has-poppins-font-family" style="color:#0a1d2d;padding-bottom:20px;font-size:26px;font-style:normal;font-weight:700">Contact Info</h3>
+<h3 class="has-text-align-left has-text-color has-poppins-font-family" style="color:#0a1d2d;padding-bottom:20px;font-size:26px;font-style:normal;font-weight:700">Información de Contacto</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#111111"},"typography":{"fontSize":"16px","fontStyle":"normal","fontWeight":"400","lineHeight":2},"spacing":{"padding":{"top":"0px"}}},"fontFamily":"poppins"} -->
@@ -123,13 +127,13 @@ return array(
 <!-- wp:columns {"style":{"spacing":{"padding":{"top":"15px"}}}} -->
 <div class="wp-block-columns" style="padding-top:15px"><!-- wp:column {"width":"30%"} -->
 <div class="wp-block-column" style="flex-basis:30%"><!-- wp:paragraph {"style":{"color":{"text":"#111111"},"typography":{"fontSize":"15px","fontStyle":"normal","fontWeight":"300"}},"fontFamily":"poppins"} -->
-<p class="has-text-color has-poppins-font-family" style="color:#111111;font-size:15px;font-style:normal;font-weight:300">Phone:</p>
+<p class="has-text-color has-poppins-font-family" style="color:#111111;font-size:15px;font-style:normal;font-weight:300">Telefonos</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"70%"} -->
 <div class="wp-block-column" style="flex-basis:70%"><!-- wp:paragraph {"style":{"color":{"text":"#111111"},"typography":{"fontSize":"15px","fontStyle":"normal","fontWeight":"300"}},"fontFamily":"poppins"} -->
-<p class="has-text-color has-poppins-font-family" style="color:#111111;font-size:15px;font-style:normal;font-weight:300">+1 500 000 0000</p>
+<p class="has-text-color has-poppins-font-family" style="color:#111111;font-size:15px;font-style:normal;font-weight:300">+58 412 202 68 08</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -137,13 +141,13 @@ return array(
 <!-- wp:columns {"style":{"spacing":{"padding":{"top":"10px","bottom":"10px"}}}} -->
 <div class="wp-block-columns" style="padding-top:10px;padding-bottom:10px"><!-- wp:column {"width":"30%"} -->
 <div class="wp-block-column" style="flex-basis:30%"><!-- wp:paragraph {"style":{"color":{"text":"#111111"},"typography":{"fontSize":"15px","fontStyle":"normal","fontWeight":"300"}},"fontFamily":"poppins"} -->
-<p class="has-text-color has-poppins-font-family" style="color:#111111;font-size:15px;font-style:normal;font-weight:300">E-mail:</p>
+<p class="has-text-color has-poppins-font-family" style="color:#111111;font-size:15px;font-style:normal;font-weight:300">Correo electrónico</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"70%"} -->
 <div class="wp-block-column" style="flex-basis:70%"><!-- wp:paragraph {"style":{"color":{"text":"#111111"},"typography":{"fontSize":"15px","fontStyle":"normal","fontWeight":"300"}},"fontFamily":"poppins"} -->
-<p class="has-text-color has-poppins-font-family" style="color:#111111;font-size:15px;font-style:normal;font-weight:300">demo@lorem.com</p>
+<p class="has-text-color has-poppins-font-family" style="color:#111111;font-size:15px;font-style:normal;font-weight:300"> info@editorialvisiones.com</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -155,11 +159,7 @@ return array(
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"70%"} -->
-<div class="wp-block-column" style="flex-basis:70%"><!-- wp:paragraph {"style":{"color":{"text":"#111111"},"typography":{"fontSize":"15px","fontStyle":"normal","fontWeight":"300"}},"fontFamily":"poppins"} -->
-<p class="has-text-color has-poppins-font-family" style="color:#111111;font-size:15px;font-style:normal;font-weight:300">http://demo.com</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
+
 <!-- /wp:columns --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
@@ -169,16 +169,12 @@ return array(
 <div class="wp-block-columns skt-fse-copyright has-background" style="background-color:#eff5fa;padding-top:40px;padding-right:0px;padding-bottom:30px;padding-left:0px"><!-- wp:column {"className":"skt-fse-copyright-left"} -->
 <div class="wp-block-column skt-fse-copyright-left"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"color":{"text":"#111111"},"typography":{"fontSize":"15px","fontStyle":"normal","fontWeight":"400","lineHeight":2},"spacing":{"padding":{"top":"0px"}}},"fontFamily":"poppins"} -->
-<p class="has-text-color has-poppins-font-family" style="color:#111111;padding-top:0px;font-size:15px;font-style:normal;font-weight:400;line-height:2">© Copyright 2023 Full Site Editing. All Rights Reserved</p>
+<p class="has-text-color has-poppins-font-family" style="color:#111111;padding-top:0px;font-size:15px;font-style:normal;font-weight:400;line-height:2">© Copyright 2023 Editorial Visiones. Todos los derechos reservados</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"className":"skt-fse-copyright-right"} -->
-<div class="wp-block-column skt-fse-copyright-right"><!-- wp:paragraph {"align":"right","style":{"color":{"text":"#111111"},"typography":{"fontSize":"15px","fontStyle":"normal","fontWeight":"400","lineHeight":2},"spacing":{"padding":{"top":"0px"}}},"fontFamily":"poppins"} -->
-<p class="has-text-align-right has-text-color has-poppins-font-family" style="color:#111111;padding-top:0px;font-size:15px;font-style:normal;font-weight:400;line-height:2">Design by SKT Themes</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:column --></div>
+
 <!-- /wp:columns --></footer>
 <!-- /wp:group -->',
 );
