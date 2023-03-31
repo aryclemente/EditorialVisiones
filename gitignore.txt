@@ -1,4 +1,24 @@
-wp-admin
-wp-config.php
-.gitignore
-.vscode
+# Ignorar todo en la raíz excepto el directorio "wp-content". y los archivos indicados abajo (dejamos la base de datos a la vista teniendo en cuenta que el el repositorio que esta creado es privado)
+
+/*
+!.gitignore
+!wp-content/
+!base.sql
+
+# Ignorar todos los temas, excepto los temas que especifique
+wp-content/themes/*
+!wp-content/themes/skt-fse/
+
+# Ignorar todos plugins, excepto los plugin que especifique
+wp-content/plugins/*
+!wp-content/plugins/su_plugi_MACOSX
+!wp-content/plugins/akismet
+!wp-content/plugins/versionpress
+!wp-content/plugins/wppusher
+
+
+# Ignorar la cache en el uploads
+wp-content/wpp_cache/*
+
+#ignorar carpetas del tema principal
+wp-content/themes/su_tema/node_modules
