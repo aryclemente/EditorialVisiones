@@ -20,13 +20,11 @@ return array(
 
 <!-- wp:column {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"className":"skt-fse-footer-info-right"} -->
 <div class="wp-block-column skt-fse-footer-info-right" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:social-links {"customIconColor":"#151f29","iconColorValue":"#151f29","customIconBackgroundColor":"#eff5fa","iconBackgroundColorValue":"#eff5fa","style":{"spacing":{"blockGap":{"left":"15px"},"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}},"layout":{"type":"flex","justifyContent":"right","orientation":"horizontal"}} -->
-<ul class="wp-block-social-links has-icon-color has-icon-background-color" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
 
-<!-- wp:social-link {"url":"https://www.facebook.com/EditorialVisiones/","service":"facebook"} /-->
+<ul class="wp-block-social-links has-icon-color has-icon-background-color" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><!-- wp:social-link {"url":"https://www.facebook.com/EditorialVisiones/","service":"facebook"} /-->
 
 <!-- wp:social-link {"url":"https://www.instagram.com/editorialvisiones/","service":"instagram"} /-->
 
-<!-- wp:social-link {"url":"mailito: info@editorialvisiones.com","service":"mail"} /-->
 
 <!-- wp:social-link {"url":"#","service":"linkedin"} /--></ul>
 <!-- /wp:social-links --></div>
