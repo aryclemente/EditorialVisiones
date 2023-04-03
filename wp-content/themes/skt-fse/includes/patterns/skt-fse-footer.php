@@ -41,7 +41,7 @@ return array(
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#111111"},"typography":{"fontSize":"15px","fontStyle":"normal","fontWeight":"400","lineHeight":2},"spacing":{"padding":{"top":"0px"}}},"fontFamily":"poppins"} -->
-<p class="has-text-color has-poppins-font-family" style="color:#111111;padding-top:0px;font-size:15px;font-style:normal;font-weight:400;line-height:2"> Editorial Visiones en 2022 tiene como objetivo fomentar el desarrollo de la investigación científica en Latinoamérica. Se trata de un espacio para autores de la región que deseen publicar sus investigaciones y perspectivas a través de textos académicos, y que también sirve como punto de referencia para los lectores interesados en este campo.
+<p class="has-text-color has-poppins-font-family" style="color:#111111;padding-top:0px;font-size:15px;font-style:normal;font-weight:400;line-height:2"> Editorial Visiones tiene como objetivo fomentar el desarrollo de la investigación científica en Latinoamérica. Se trata de un espacio para autores de la región que deseen publicar sus investigaciones y perspectivas a través de textos académicos, y que también sirve como punto de referencia para los lectores interesados en este campo.
 </p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
