@@ -57,6 +57,47 @@ function eventos_setup(){
 }
 add_action('init','eventos_setup');
 
+//Categorias de Eventos    
+
+function evRegisterTax(){
+	$args=array(
+		'hierarchical' => true,
+		'labels' => array(
+			'name' => 'Categorías de Eventos',
+			'singular_name' => 'Categoría de Eventos'
+		),
+		'show_in_menu' => true,
+		'show_admin_column' => true,
+		'rewrite' =>array('slug' => 'categoria-eventos')
+	);
+
+	register_taxonomy('categoria-eventos', array('Eventos'), $args);
+}
+
+add_action( 'init', 'evRegisterTax');
+
+
+//Categorias de Programas
+
+function proRegisterTax(){
+	$args=array(
+		'hierarchical' => true,
+		'labels' => array(
+			'name' => 'Categorías de Programas',
+			'singular_name' => 'Categoría de Programas'
+		),
+		'show_in_menu' => true,
+		'show_admin_column' => true,
+		'rewrite' =>array('slug' => 'categoria-programas')
+	);
+
+	register_taxonomy('categoria-programas', array('Programa'), $args);
+
+	
+	
+}
+add_action( 'init', 'proRegisterTax');
+
 // Theme Setup
 if ( ! function_exists( 'skt_fse_support' ) ) :
 	function skt_fse_support() {		load_theme_textdomain( 'skt-fse', get_template_directory() . '/languages' );
