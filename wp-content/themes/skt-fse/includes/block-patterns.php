@@ -35,7 +35,9 @@ function skt_fse_register_block_patterns() {
 		'skt-fse-section6',
 		'skt-fse-section11',
 		'skt-fse-footer',
-		'skt-fse-lista-programas',		
+		'skt-fse-lista-programas',
+		'skt-fse-single-evento',		
+	
 	);
 
 	/**
