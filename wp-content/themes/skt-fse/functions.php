@@ -6,15 +6,69 @@
  *
  */
 
+// EV Setup
+function programas_setup(){
+	$labels = array(
+		'name' => 'Programas',
+		'singular_name' => 'Programa',
+		'manu_name' => 'Programas'
+	); 
+
+	$args = array(
+		'label'  => 'Programas', 
+    'description' => 'Programas de formacion de la editorial',
+    'labels'       => $labels,
+    'supports'   => array('title','editor','thumbnail', 'revisions'),
+    'public'    => true,
+    'show_in_menu' => true,
+    'menu_position' => 5,
+    'menu_icon'     => 'dashicons-welcome-learn-more',
+    'can_export' => true,
+    'publicly_queryable' => true,
+    'rewrite'       => true,
+    'show_in_rest' => true
+	);
+	register_post_type('Programas',$args);
+}
+add_action( 'init', 'programas_setup' );
+
+function eventos_setup(){
+	$labels = array(
+		'name' => 'Eventos',
+		'singular_name' => 'Evento',
+		'manu_name' => 'Eventos'
+	);
+
+	$args = array(
+		'label' => 'Eventos',
+		'description' => 'Eventos academicos de la editorial',
+		'labels' => $labels,
+		'supports'   => array('title','editor','thumbnail', 'revisions'),
+    'public'    => true,
+    'show_in_menu' => true,
+    'menu_position' => 5,
+    'menu_icon'     => 'dashicons-calendar',
+    'can_export' => true,
+    'publicly_queryable' => true,
+    'rewrite'       => true,
+    'show_in_rest' => true
+	);
+	register_post_type('Evento',$args);
+}
+add_action('init','eventos_setup');
+
 // Theme Setup
 if ( ! function_exists( 'skt_fse_support' ) ) :
-	function skt_fse_support() {
-		load_theme_textdomain( 'skt-fse', get_template_directory() . '/languages' );
+	function skt_fse_support() {		load_theme_textdomain( 'skt-fse', get_template_directory() . '/languages' );
 		// Add support for block styles.
 		add_theme_support( 'wp-block-styles' );
 		
 		// Enqueue editor styles.
 		add_editor_style( 'editor-style.css' );
+
+		register_nav_menus(array(
+			'top_menu' => 'Menu principal'
+		));
 	}
 endif;
 add_action( 'after_setup_theme', 'skt_fse_support' );
