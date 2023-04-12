@@ -1,9 +1,9 @@
 <?php
 /**
- * Plantilla para Crear Eventos
+ * Plantilla para Crear Eventos Academicos
  */
 return array(
-	'title'      => __( 'Plantilla para Crear Eventos', 'skt-fse' ),
+	'title'      => __( 'Plantilla para Crear Eventos Academicos', 'skt-fse' ),
 	'categories' => array( 'skt-fse' ),
 	'blockTypes' => array( 'core/template-part/skt-fse' ),
 	'content'    => '<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|20","right":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20"}},"border":{"width":"0px","style":"none","radius":"0px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
@@ -11,6 +11,8 @@ return array(
     <div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
     
+    <!-- wp:post-excerpt {"moreText":"Manejar herramientas para validar hipótesis del modelo de negocios. Desarrollar un mínimo producto viable para poder validar las hipótesis más riesgosas del modelo de negocios. Tomar la decisión de pivotear o perseverar en el modelo de negocios diseñado. Realizar presentaciones efectivas a la comunidad de inversores."} /-->
+
     <!-- wp:heading -->
     <h2 class="wp-block-heading">Objetivo</h2>
     <!-- /wp:heading -->
