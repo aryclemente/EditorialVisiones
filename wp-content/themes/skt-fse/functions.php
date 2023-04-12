@@ -65,6 +65,10 @@ if ( ! function_exists( 'skt_fse_support' ) ) :
 		
 		// Enqueue editor styles.
 		add_editor_style( 'editor-style.css' );
+
+		register_nav_menus(array(
+			'top_menu' => 'Menu principal'
+		));
 	}
 endif;
 add_action( 'after_setup_theme', 'skt_fse_support' );

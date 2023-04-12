@@ -3,7 +3,7 @@
 /*
 !.gitignore
 !wp-content/
-!base.sql
+!editorial_visiones.sql
 
 # Ignorar todos los temas, excepto los temas que especifique
 wp-content/themes/*
