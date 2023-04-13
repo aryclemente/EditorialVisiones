@@ -37,11 +37,8 @@ function skt_fse_register_block_patterns() {
 		'skt-fse-services',
 		'skt-fse-section6',
 		'skt-fse-section11',
-		'skt-fse-footer',
-				
-	
+		'skt-fse-footer'
 	);
-
 	/**
 	 * Filters the theme block patterns.
 	 *
