@@ -27,7 +27,7 @@ function skt_fse_register_block_patterns() {
 	$block_patterns = array(
 		'skt-fse-lista-eventos',
 		'skt-fse-single-evento',
-		'skt-fse-sobre-nosotros'
+		'skt-fse-with-sobre-nosotros',
 		'skt-fse-header',
 		'skt-fse-hero-banner',
 		'skt-fse-with-archive-title',
@@ -37,11 +37,9 @@ function skt_fse_register_block_patterns() {
 		'skt-fse-services',
 		'skt-fse-section6',
 		'skt-fse-section11',
-		'skt-fse-footer',
-				
-	
+		'skt-fse-footer'
 	);
-
+097ç789ç9ç9999ç8
 	/**
 	 * Filters the theme block patterns.
 	 *
