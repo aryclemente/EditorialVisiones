@@ -39,7 +39,6 @@ function skt_fse_register_block_patterns() {
 		'skt-fse-section11',
 		'skt-fse-footer'
 	);
-097ç789ç9ç9999ç8
 	/**
 	 * Filters the theme block patterns.
 	 *
