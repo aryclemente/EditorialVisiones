@@ -26,6 +26,7 @@ function skt_fse_register_block_patterns() {
 
 	$block_patterns = array(
 		'skt-fse-lista-eventos',
+		'skt-fse-lista-programas',
 		'skt-fse-single-evento',
 		'skt-fse-sobre-nosotros',
 		'skt-fse-header',
