@@ -19,6 +19,10 @@ SKT FSE Wordpress theme is released under the terms of GNU GPL.
 
 */
 
+.menu-personalizado{
+	margin: 100px;
+}
+
 *{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
 article,
 aside,

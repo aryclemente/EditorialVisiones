@@ -55,3 +55,9 @@ img {
 .editor-styles-wrapper input,
 .editor-styles-wrapper select,
 .editor-styles-wrapper textarea{font-family: 'Poppins', sans-serif;}
+
+.flex{
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+}
