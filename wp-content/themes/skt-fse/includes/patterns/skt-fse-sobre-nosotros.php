@@ -1042,8 +1042,8 @@ return array(
     <div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
     
-    <!-- wp:image {"align":"center","id":429,"height":30,"sizeSlug":"full","linkDestination":"none"} -->
-    <figure class="wp-block-image aligncenter size-full is-resized"><img src="https://editorialvisiones.com/wp-content/uploads/2023/04/mexico.png" alt="" class="wp-image-429" height="30"/></figure>
+    <!-- wp:image {"align":"center","id":429,"width":30,"height":30,"sizeSlug":"full","linkDestination":"none"} -->
+    <figure class="wp-block-image aligncenter size-full is-resized"><img src="https://editorialvisiones.com/wp-content/uploads/2023/04/mexico.png" alt="" class="wp-image-429" width="30" height="30"/></figure>
     <!-- /wp:image -->
     
     <!-- wp:paragraph {"align":"center"} -->
@@ -1206,9 +1206,13 @@ return array(
     <p class="has-text-align-center"><em><strong>RRSS</strong></em></p>
     <!-- /wp:paragraph -->
     
-    <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">@dianora_perez</p>
-    <!-- /wp:paragraph --></div>
+    <!-- wp:spacer {"height":"15px"} -->
+    <div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+    
+    <!-- wp:social-links {"align":"center","layout":{"type":"flex","justifyContent":"center"}} -->
+    <ul class="wp-block-social-links aligncenter"><!-- wp:social-link {"url":"https://instagram.com/dianora_perez/","service":"instagram"} /--></ul>
+    <!-- /wp:social-links --></div>
     <!-- /wp:group --></div>
     <!-- /wp:column -->
     
@@ -1307,9 +1311,11 @@ return array(
     <div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
     
-    <!-- wp:image {"align":"center","id":425,"width":35,"height":35,"sizeSlug":"full","linkDestination":"custom"} -->
+    <!-- wp:group {"layout":{"type":"constrained"}} -->
+    <div class="wp-block-group"><!-- wp:image {"align":"center","id":425,"width":35,"height":35,"sizeSlug":"full","linkDestination":"custom"} -->
     <figure class="wp-block-image aligncenter size-full is-resized"><a href="https://orcid.org/0000-0002-5725-4517/"><img src="https://editorialvisiones.com/wp-content/uploads/2023/04/ORCID.png" alt="" class="wp-image-425" width="35" height="35"/></a></figure>
     <!-- /wp:image --></div>
+    <!-- /wp:group --></div>
     <!-- /wp:group --></div>
     <!-- /wp:group --></div>
     <!-- /wp:column --></div>
@@ -1360,9 +1366,13 @@ return array(
     <p class="has-text-align-center"><em><strong><em><strong>RRSS</strong></em></strong></em></p>
     <!-- /wp:paragraph -->
     
-    <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">@trazosgraficos</p>
-    <!-- /wp:paragraph --></div>
+    <!-- wp:spacer {"height":"15px"} -->
+    <div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+    
+    <!-- wp:social-links {"openInNewTab":true,"align":"center","layout":{"type":"flex","justifyContent":"center"}} -->
+    <ul class="wp-block-social-links aligncenter"><!-- wp:social-link {"url":"https://instagram.com/trazosgraficos/","service":"instagram"} /--></ul>
+    <!-- /wp:social-links --></div>
     <!-- /wp:group --></div>
     <!-- /wp:column -->
     
@@ -1373,7 +1383,7 @@ return array(
     <!-- /wp:heading -->
     
     <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontSize":"24px","fontStyle":"normal","fontWeight":"600","textTransform":"capitalize"},"spacing":{"padding":{"top":"0px","bottom":"0px"}},"color":{"text":"#0a1d2d"}},"fontFamily":"poppins"} -->
-    <h3 class="wp-block-heading has-text-align-center has-text-color has-poppins-font-family" style="color:#0a1d2d;padding-top:0px;padding-bottom:0px;font-size:24px;font-style:normal;font-weight:600;text-transform:capitalize"><em><em>A</em></em>rianna Clemente</h3>
+    <h3 class="wp-block-heading has-text-align-center has-text-color has-poppins-font-family" style="color:#0a1d2d;padding-top:0px;padding-bottom:0px;font-size:24px;font-style:normal;font-weight:600;text-transform:capitalize">Téc. <em><em>Arianna</em></em> Clemente</h3>
     <!-- /wp:heading -->
     
     <!-- wp:spacer {"height":"30px"} -->
@@ -1417,7 +1427,7 @@ return array(
     <div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
     
-    <!-- wp:social-links {"align":"center","layout":{"type":"flex","justifyContent":"center"}} -->
+    <!-- wp:social-links {"openInNewTab":true,"align":"center","layout":{"type":"flex","justifyContent":"center"}} -->
     <ul class="wp-block-social-links aligncenter"><!-- wp:social-link {"url":"https://www.linkedin.com/in/aryclement/","service":"linkedin","label":""} /--></ul>
     <!-- /wp:social-links --></div>
     <!-- /wp:group --></div>
@@ -1431,7 +1441,7 @@ return array(
     <!-- /wp:heading -->
     
     <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontSize":"24px","fontStyle":"normal","fontWeight":"600","textTransform":"capitalize"},"spacing":{"padding":{"top":"0px","bottom":"0px"}},"color":{"text":"#0a1d2d"}},"fontFamily":"poppins"} -->
-    <h3 class="wp-block-heading has-text-align-center has-text-color has-poppins-font-family" style="color:#0a1d2d;padding-top:0px;padding-bottom:0px;font-size:24px;font-style:normal;font-weight:600;text-transform:capitalize"><em><em>Adrián Restrepo</em></em></h3>
+    <h3 class="wp-block-heading has-text-align-center has-text-color has-poppins-font-family" style="color:#0a1d2d;padding-top:0px;padding-bottom:0px;font-size:24px;font-style:normal;font-weight:600;text-transform:capitalize">Téc. <em><em>Adrián Restrepo</em></em></h3>
     <!-- /wp:heading -->
     
     <!-- wp:spacer {"height":"30px"} -->
@@ -1470,9 +1480,13 @@ return array(
     <p class="has-text-align-center"><em><strong>RRSS</strong></em></p>
     <!-- /wp:paragraph -->
     
-    <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center"><a href="https://www.linkedin.com/in/deycov-dev/">@deycov</a></p>
-    <!-- /wp:paragraph --></div>
+    <!-- wp:spacer {"height":"15px"} -->
+    <div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+    
+    <!-- wp:social-links {"openInNewTab":true,"align":"center","layout":{"type":"flex","justifyContent":"center"}} -->
+    <ul class="wp-block-social-links aligncenter"><!-- wp:social-link {"url":"https://www.linkedin.com/in/deycov-dev/","service":"linkedin","label":""} /--></ul>
+    <!-- /wp:social-links --></div>
     <!-- /wp:group --></div>
     <!-- /wp:column -->
     
@@ -1510,9 +1524,13 @@ return array(
     <p class="has-text-align-center"><em><strong><em><strong>RRSS</strong></em></strong></em></p>
     <!-- /wp:paragraph -->
     
-    <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">@realdesignagencia</p>
-    <!-- /wp:paragraph --></div>
+    <!-- wp:spacer {"height":"15px"} -->
+    <div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+    
+    <!-- wp:social-links {"openInNewTab":true,"align":"center","layout":{"type":"flex","justifyContent":"center"}} -->
+    <ul class="wp-block-social-links aligncenter"><!-- wp:social-link {"url":"https://instagram.com/realdesingnagencia/","service":"instagram"} /--></ul>
+    <!-- /wp:social-links --></div>
     <!-- /wp:group --></div>
     <!-- /wp:column --></div>
     <!-- /wp:columns --></div>

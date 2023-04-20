@@ -150,12 +150,12 @@ input{line-height: normal;}
 button,
 html input[type="button"],
 input[type="reset"],
-input[type="submit"]{-webkit-appearance: button; cursor: pointer;}
+input[type="submit"]{-webkit-appearance:button; cursor: pointer;}
 button[disabled],
 input[disabled]{cursor: default;}
 input[type="checkbox"],
 input[type="radio"]{padding: 0;}
-input[type="search"]{-webkit-appearance: textfield; padding-right: 2px; width: 270px;}
+input[type="search"]{-webkit-appearance:textfield; padding-right: 2px; width: 270px;}
 input[type="search"]::-webkit-search-decoration{-webkit-appearance: none;}
 button::-moz-focus-inner,
 input::-moz-focus-inner{border: 0; padding: 0;}
